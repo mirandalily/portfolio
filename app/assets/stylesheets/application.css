@@ -1,0 +1,191 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
+ body {
+     background: white;
+     margin: 0;
+ }
+
+ nav {
+     width: 100%;
+     background: white;
+ }
+
+
+ nav ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     padding-top: 20px;
+     padding-bottom: 20px;
+ }
+
+
+ nav li {
+    font-family: "Open Sans";
+    font-weight: 300;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    display: inline;
+    margin-left: 5%;
+}
+
+#welcometext {
+    margin-top: 350px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#welcometext h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-weight: 300;
+    text-transform: lowercase;
+    font-size: 65px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+#welcometext h2 {
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 1.4px;
+    text-align: center;
+}
+
+
+#arrow {
+    transform: rotate(90deg);
+    position: relative;
+    display:block;
+    margin: 0 auto;
+    margin-top: 290px;
+    padding: 20px;
+}
+
+
+#portpic {
+    height: 350px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    margin-top: 85px;
+}
+
+
+#aboutp {
+    font-family: "Open Sans";
+    font-weight: 300;
+    width: 55%;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding-bottom: 150px;
+    letter-spacing: 1.2px;
+}
+
+
+
+#aboutme h1, #skills h1, #projects h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-weight: 300;
+    text-transform: lowercase;
+    font-size: 65px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#parallax1, #parallax2, #parallax3 {
+    height: 350px;
+    opacity: .7;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax1 {
+    background-image: url("1.jpg");
+}
+
+#parallax2 {
+    background-image: url("2.jpg");
+}
+
+#parallax3 {
+    background-image: url("3.jpg");
+}
+
+#resume {
+    font-family: 'Open Sans', sans-serif;
+    background: #3498db;
+    color: white;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 20px;
+}
+
+#projects {
+    height: 300px;
+}
+
+.skillitem {
+    list-style-type: none;
+}
+
+#skills {
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+
+#skills ul {
+    display: inline-block;
+    text-align: left;
+    margin-right: 30px;
+    padding-top: 30px;
+}
+
+#skills li {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 5;
+}
+
+#skills img {
+    height: 20px;
+    padding-right: 10px;
+}
+
+#resume p:hover:after {
+     content: url(download.png);
+     display:block;
+}
+
+footer {
+    background: #2c3e50;
+    height: 500px;
+}
