@@ -197,7 +197,15 @@
     padding-right: 10px;
 }
 
+#projects {
+    height: 100vh;
+}
 
+#githubprofile {
+    padding-top: 50px;
+    width: 400px;
+    margin: 0 auto;
+}
 
 
 footer {
