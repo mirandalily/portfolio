@@ -143,14 +143,26 @@
 }
 
 #resume {
-    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
     background: #3498db;
-    color: white;
     font-weight: 300;
     letter-spacing: 2px;
     text-align: center;
     padding: 20px;
+    margin-top: -135px;
 }
+
+#resume a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    transition: opacity .25s ease-in-out;
+}
+
+#resume a:hover{
+    opacity: 0.5;
+}
+
 
 #projects {
     height: 300px;
@@ -185,14 +197,8 @@
     padding-right: 10px;
 }
 
-#resume {
-    margin-top: -135px;
-}
 
-#resume p:hover:after {
-     content: url(download.png);
-     display:block;
-}
+
 
 footer {
     background: #2c3e50;
