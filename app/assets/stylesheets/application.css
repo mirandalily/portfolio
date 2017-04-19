@@ -46,7 +46,7 @@
 }
 
 #welcometext {
-    margin-top: 350px;
+    height: 100vh;
     margin-right: auto;
     margin-left: auto;
 }
@@ -59,6 +59,7 @@
     font-size: 65px;
     letter-spacing: 2px;
     text-align: center;
+    padding-top: 15%;
 }
 
 #welcometext h2 {
@@ -77,8 +78,8 @@
     position: relative;
     display:block;
     margin: 0 auto;
-    margin-top: 290px;
     padding: 20px;
+    margin-top: -147px;
 }
 
 
@@ -88,6 +89,10 @@
     display: block;
     margin: 0 auto;
     margin-top: 85px;
+}
+
+#aboutme {
+    height: 100vh;
 }
 
 
@@ -157,7 +162,7 @@
 
 #skills {
     text-align: center;
-    padding-bottom: 150px;
+    height: 100vh;
 }
 
 
@@ -178,6 +183,10 @@
 #skills img {
     height: 20px;
     padding-right: 10px;
+}
+
+#resume {
+    margin-top: -135px;
 }
 
 #resume p:hover:after {
