@@ -15,6 +15,7 @@
  */
 
  @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+ @import url('https://fonts.googleapis.com/css?family=Playfair+Display:700,900');
 
  body {
      background: white;
@@ -52,9 +53,9 @@
 }
 
 #welcometext h1 {
-    font-family: 'Open Sans', sans-serif;
-    color: black;
-    font-weight: 300;
+    font-family: 'Playfair Display', serif;
+    color: #ED6464;
+    font-weight: 700;
     text-transform: lowercase;
     font-size: 65px;
     letter-spacing: 2px;
@@ -109,12 +110,10 @@
 }
 
 
-
-#aboutme h1, #skills h1, #projects h1 {
-    font-family: 'Open Sans', sans-serif;
-    color: black;
-    font-weight: 300;
-    text-transform: lowercase;
+#aboutme h1, #skills h1, #projects h1, footer h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #ED6464;
     font-size: 65px;
     letter-spacing: 2px;
     text-align: center;
@@ -207,8 +206,24 @@
     margin: 0 auto;
 }
 
+footer ul {
+    list-style-type: none;
+    text-align: center;
+    padding-top: 5%;
+}
+
+footer li {
+    display: inline;
+    padding: 15px;
+}
+
+
 
 footer {
     background: #2c3e50;
-    height: 500px;
+    height: 50vh;
+}
+
+footer h1 {
+    color: white;
 }
