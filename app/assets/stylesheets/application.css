@@ -92,10 +92,6 @@
     margin-top: 85px;
 }
 
-#aboutme {
-    height: 100vh;
-}
-
 
 #aboutp {
     font-family: "Open Sans";
@@ -148,7 +144,7 @@
     letter-spacing: 2px;
     text-align: center;
     padding: 20px;
-    margin-top: -135px;
+    margin-top: 45px;
 }
 
 #resume a {
@@ -173,7 +169,6 @@
 
 #skills {
     text-align: center;
-    height: 100vh;
 }
 
 
